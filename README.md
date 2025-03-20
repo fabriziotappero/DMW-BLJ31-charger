@@ -1,2 +1,3 @@
-# DMW-BLJ31-charger
-usb charger for the lithium battery DMW-BLJ31
+## DMW-BLJ31-charger
+USB charger for the lithium battery DMW-BLJ31.
+

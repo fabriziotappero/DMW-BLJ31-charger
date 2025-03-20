@@ -128,63 +128,67 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 156.21 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50b52f66-c479-4820-b845-3b6e8938b530")
+	(text "Pads for mechanical connections"
+		(exclude_from_sim no)
+		(at 35.052 23.876 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1deb8fd4-4349-4ca4-a46e-91a33718edbd")
 	)
 	(junction
-		(at 165.1 40.64)
+		(at 83.82 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5a37f500-f23a-4c29-bbef-7cb74ae4f8f5")
+		(uuid "57f78d91-6018-4d9c-a42c-9ec990417f01")
 	)
 	(junction
-		(at 165.1 72.39)
+		(at 218.44 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6ae084b2-c23b-4120-b007-1884521b8296")
+		(uuid "590c3054-6be0-4d8f-9665-f092f52c8162")
 	)
 	(junction
-		(at 157.48 87.63)
+		(at 124.46 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73e8e44e-9ad7-4a2f-b1e3-98cf80f60209")
 	)
 	(junction
-		(at 143.51 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ce23cf6-442c-48b8-a4a1-3880c435603a")
-	)
-	(junction
-		(at 157.48 96.52)
+		(at 124.46 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae6f5b79-4334-49c2-8a2e-ac6e569d5c7b")
 	)
 	(junction
-		(at 156.21 125.73)
+		(at 195.58 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5995bb7-2278-4375-938e-5ed4f1dc1968")
+	)
+	(junction
+		(at 83.82 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0c60deb-0780-47f0-b6ba-14495a7e1422")
 	)
 	(junction
-		(at 165.1 63.5)
+		(at 218.44 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f1ba5df7-52b0-4218-bb03-e5ec655ed600")
+		(uuid "f04538b1-d6a7-4222-b68d-236ba1602ec8")
 	)
 	(junction
-		(at 140.97 40.64)
+		(at 195.58 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fc598443-18a1-48d2-b951-c7201c561fcb")
+		(uuid "f7e54b08-7cab-42be-8759-c69aad9a2483")
 	)
 	(wire
 		(pts
-			(xy 138.43 72.39) (xy 143.51 72.39)
+			(xy 213.36 49.53) (xy 218.44 49.53)
 		)
 		(stroke
 			(width 0)
@@ -194,7 +198,17 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 40.64) (xy 191.77 40.64)
+			(xy 218.44 63.5) (xy 218.44 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc7f366-9ef4-4e54-9fb5-f40ae0a413a3")
+	)
+	(wire
+		(pts
+			(xy 147.32 40.64) (xy 151.13 40.64)
 		)
 		(stroke
 			(width 0)
@@ -204,7 +218,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 87.63) (xy 157.48 87.63)
+			(xy 119.38 48.26) (xy 124.46 48.26)
 		)
 		(stroke
 			(width 0)
@@ -214,17 +228,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 40.64) (xy 165.1 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f54ef3b-b8d8-4a45-aafe-07ef07ea7cd8")
-	)
-	(wire
-		(pts
-			(xy 191.77 40.64) (xy 191.77 49.53)
+			(xy 151.13 40.64) (xy 151.13 49.53)
 		)
 		(stroke
 			(width 0)
@@ -234,7 +238,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 49.53) (xy 140.97 49.53)
+			(xy 191.77 49.53) (xy 195.58 49.53)
 		)
 		(stroke
 			(width 0)
@@ -244,17 +248,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 63.5) (xy 165.1 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4308fc3f-753e-4edb-a786-873ccdee9f81")
-	)
-	(wire
-		(pts
-			(xy 187.96 63.5) (xy 191.77 63.5)
+			(xy 167.64 40.64) (xy 171.45 40.64)
 		)
 		(stroke
 			(width 0)
@@ -264,7 +258,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 125.73) (xy 156.21 115.57)
+			(xy 83.82 49.53) (xy 83.82 39.37)
 		)
 		(stroke
 			(width 0)
@@ -274,7 +268,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 49.53) (xy 191.77 49.53)
+			(xy 147.32 49.53) (xy 151.13 49.53)
 		)
 		(stroke
 			(width 0)
@@ -284,7 +278,17 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 72.39) (xy 143.51 63.5)
+			(xy 218.44 57.15) (xy 218.44 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "508df830-1fde-4305-9c5e-f143102254b8")
+	)
+	(wire
+		(pts
+			(xy 218.44 49.53) (xy 218.44 40.64)
 		)
 		(stroke
 			(width 0)
@@ -294,7 +298,17 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 49.53) (xy 140.97 40.64)
+			(xy 124.46 57.15) (xy 124.46 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50fb06ee-16fc-4afb-9ac7-2a38bf39dff9")
+	)
+	(wire
+		(pts
+			(xy 195.58 49.53) (xy 195.58 40.64)
 		)
 		(stroke
 			(width 0)
@@ -304,37 +318,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 63.5) (xy 165.1 72.39)
+			(xy 87.63 66.04) (xy 83.82 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "69f4bce0-1e07-4b85-aa5e-e3dbdf41b59f")
+		(uuid "59f5b290-916a-45ad-a933-034b6ff98357")
 	)
 	(wire
 		(pts
-			(xy 165.1 72.39) (xy 165.1 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ca06d8f-1c23-4697-8cad-8fafcb6e1fd8")
-	)
-	(wire
-		(pts
-			(xy 165.1 40.64) (xy 165.1 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e710027-3402-48aa-81e9-6f46bd0a3296")
-	)
-	(wire
-		(pts
-			(xy 157.48 78.74) (xy 157.48 87.63)
+			(xy 124.46 39.37) (xy 124.46 48.26)
 		)
 		(stroke
 			(width 0)
@@ -344,7 +338,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 87.63) (xy 157.48 96.52)
+			(xy 83.82 66.04) (xy 83.82 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77d04167-d3d7-42a0-adcd-162f55026aa1")
+	)
+	(wire
+		(pts
+			(xy 124.46 48.26) (xy 124.46 57.15)
 		)
 		(stroke
 			(width 0)
@@ -354,7 +358,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 96.52) (xy 157.48 96.52)
+			(xy 119.38 57.15) (xy 124.46 57.15)
 		)
 		(stroke
 			(width 0)
@@ -364,17 +368,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 115.57) (xy 156.21 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93b6de14-f060-4fdb-84c0-6962cbf329b2")
-	)
-	(wire
-		(pts
-			(xy 156.21 134.62) (xy 156.21 125.73)
+			(xy 83.82 58.42) (xy 83.82 49.53)
 		)
 		(stroke
 			(width 0)
@@ -384,7 +378,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 63.5) (xy 143.51 63.5)
+			(xy 118.11 66.04) (xy 124.46 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6a613c7-0b58-4029-bcbb-0b04823e4d5e")
+	)
+	(wire
+		(pts
+			(xy 212.09 40.64) (xy 218.44 40.64)
 		)
 		(stroke
 			(width 0)
@@ -394,7 +398,17 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 125.73) (xy 156.21 125.73)
+			(xy 195.58 64.77) (xy 195.58 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d4d72e-e29a-4a51-893d-5f24091b414d")
+	)
+	(wire
+		(pts
+			(xy 87.63 49.53) (xy 83.82 49.53)
 		)
 		(stroke
 			(width 0)
@@ -404,7 +418,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 134.62) (xy 156.21 134.62)
+			(xy 87.63 58.42) (xy 83.82 58.42)
 		)
 		(stroke
 			(width 0)
@@ -414,7 +428,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 72.39) (xy 191.77 72.39)
+			(xy 167.64 49.53) (xy 171.45 49.53)
 		)
 		(stroke
 			(width 0)
@@ -424,7 +438,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 78.74) (xy 157.48 78.74)
+			(xy 119.38 39.37) (xy 124.46 39.37)
 		)
 		(stroke
 			(width 0)
@@ -434,17 +448,47 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 96.52) (xy 161.29 96.52)
+			(xy 212.09 63.5) (xy 218.44 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4a55f8d-9005-4a76-9f7c-450428542a7b")
+		(uuid "e4ae717c-2cec-47e6-b74c-4411f6214500")
 	)
 	(wire
 		(pts
-			(xy 191.77 63.5) (xy 191.77 72.39)
+			(xy 191.77 57.15) (xy 195.58 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e706fab2-ee58-430e-bd1e-c35897c5e33c")
+	)
+	(wire
+		(pts
+			(xy 212.09 57.15) (xy 218.44 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecaf94de-cf9e-458f-8232-7998cae4c436")
+	)
+	(wire
+		(pts
+			(xy 191.77 64.77) (xy 195.58 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee347244-5550-4152-b5c3-1ca899b0b7cf")
+	)
+	(wire
+		(pts
+			(xy 171.45 40.64) (xy 171.45 49.53)
 		)
 		(stroke
 			(width 0)
@@ -454,7 +498,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 40.64) (xy 140.97 40.64)
+			(xy 191.77 40.64) (xy 195.58 40.64)
 		)
 		(stroke
 			(width 0)
@@ -464,7 +508,17 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 115.57) (xy 160.02 115.57)
+			(xy 195.58 57.15) (xy 195.58 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f770beb3-200f-4769-abd7-519b250f41ba")
+	)
+	(wire
+		(pts
+			(xy 83.82 39.37) (xy 87.63 39.37)
 		)
 		(stroke
 			(width 0)
@@ -474,23 +528,23 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 165.1 115.57 180)
+		(at 53.34 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "15ad0cd9-2563-4567-ad80-a61dea26fdd1")
-		(property "Reference" "J16"
-			(at 164.465 120.65 0)
+		(uuid "00c9e4ad-0fa1-4d8c-b974-8749f14d5480")
+		(property "Reference" "J46"
+			(at 55.626 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BAT-"
-			(at 164.465 118.11 0)
+		(property "Value" "~"
+			(at 53.975 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -498,7 +552,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
-			(at 165.1 115.57 0)
+			(at 53.34 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -507,7 +561,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 115.57 0)
+			(at 53.34 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -516,7 +570,263 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 165.1 115.57 0)
+			(at 53.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4dd499f-a4dd-433f-8aa5-9c6656a4f79b")
+		)
+		(instances
+			(project "DMW-BLJ31-charger"
+				(path "/5b2025d1-6fc1-4f53-9ee2-e2e3aea65ef3"
+					(reference "J46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 53.34 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11a6fe4d-6417-4d96-b031-baa77b86f2b5")
+		(property "Reference" "J39"
+			(at 55.626 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 53.975 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
+			(at 53.34 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 53.34 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f464e5d4-bd02-4fc1-a419-e824d58e65cc")
+		)
+		(instances
+			(project "DMW-BLJ31-charger"
+				(path "/5b2025d1-6fc1-4f53-9ee2-e2e3aea65ef3"
+					(reference "J39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 53.34 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13ac3d37-fcc7-4990-b717-b2d1bb8d1e56")
+		(property "Reference" "J47"
+			(at 55.626 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 53.975 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
+			(at 53.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 53.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32047e00-7a85-49ce-bede-0c37fda9417a")
+		)
+		(instances
+			(project "DMW-BLJ31-charger"
+				(path "/5b2025d1-6fc1-4f53-9ee2-e2e3aea65ef3"
+					(reference "J47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 53.34 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14cfe13c-c71c-4a81-8ade-3a97931350f1")
+		(property "Reference" "J48"
+			(at 55.626 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 53.975 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
+			(at 53.34 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 53.34 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e8cb4bb-8b43-4890-8695-5eec4eff8e58")
+		)
+		(instances
+			(project "DMW-BLJ31-charger"
+				(path "/5b2025d1-6fc1-4f53-9ee2-e2e3aea65ef3"
+					(reference "J48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 92.71 39.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15ad0cd9-2563-4567-ad80-a61dea26fdd1")
+		(property "Reference" "J16"
+			(at 95.758 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT-"
+			(at 96.52 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
+			(at 92.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 92.71 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -538,7 +848,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 170.18 63.5 180)
+		(at 207.01 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -547,7 +857,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f28c2ea-d284-4f85-a296-8820ed016f1a")
 		(property "Reference" "J5"
-			(at 169.545 58.42 0)
+			(at 207.645 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -555,7 +865,7 @@
 			)
 		)
 		(property "Value" "gnd"
-			(at 169.545 60.96 0)
+			(at 207.645 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -563,7 +873,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
-			(at 170.18 63.5 0)
+			(at 207.01 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -572,7 +882,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 63.5 0)
+			(at 207.01 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -581,7 +891,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 170.18 63.5 0)
+			(at 207.01 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -603,7 +913,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 74.93 48.26 0)
+		(at 25.4 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -611,7 +921,7 @@
 		(dnp no)
 		(uuid "37f56f22-0e7b-4dbe-8633-2682cada4900")
 		(property "Reference" "J22"
-			(at 77.216 45.212 0)
+			(at 27.686 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -619,7 +929,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 75.565 46.99 0)
+			(at 26.035 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -627,7 +937,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
-			(at 74.93 48.26 0)
+			(at 25.4 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -636,7 +946,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 48.26 0)
+			(at 25.4 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -645,7 +955,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 74.93 48.26 0)
+			(at 25.4 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -667,24 +977,23 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 147.32 78.74 0)
+		(at 53.34 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b956803-5b31-4c32-94cf-cb16a43a7b8c")
-		(property "Reference" "J20"
-			(at 147.955 73.66 0)
+		(uuid "3a1ac8bb-0b7e-440d-bc37-d672bc3d1028")
+		(property "Reference" "J38"
+			(at 55.626 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BAT+"
-			(at 147.955 76.2 0)
+		(property "Value" "~"
+			(at 53.975 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -692,7 +1001,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
-			(at 147.32 78.74 0)
+			(at 53.34 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -701,7 +1010,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 78.74 0)
+			(at 53.34 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -710,7 +1019,71 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 147.32 78.74 0)
+			(at 53.34 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22ea53f7-5b3a-46ec-be74-7ba7e2300124")
+		)
+		(instances
+			(project "DMW-BLJ31-charger"
+				(path "/5b2025d1-6fc1-4f53-9ee2-e2e3aea65ef3"
+					(reference "J38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 114.3 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b956803-5b31-4c32-94cf-cb16a43a7b8c")
+		(property "Reference" "J20"
+			(at 110.744 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT+"
+			(at 110.236 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
+			(at 114.3 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 114.3 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -732,24 +1105,23 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 132.08 40.64 0)
+		(at 40.64 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44853795-0dac-45ce-b00c-ebd80527f00b")
-		(property "Reference" "J1"
-			(at 132.715 35.56 0)
+		(uuid "3f92b443-67fe-4786-8605-8e32afbbcd59")
+		(property "Reference" "J30"
+			(at 42.926 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BAT+"
-			(at 132.715 38.1 0)
+		(property "Value" "~"
+			(at 41.275 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -757,7 +1129,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
-			(at 132.08 40.64 0)
+			(at 40.64 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -766,7 +1138,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 40.64 0)
+			(at 40.64 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -775,7 +1147,136 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 132.08 40.64 0)
+			(at 40.64 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad0189e9-1030-44c6-8928-5122231c8da0")
+		)
+		(instances
+			(project "DMW-BLJ31-charger"
+				(path "/5b2025d1-6fc1-4f53-9ee2-e2e3aea65ef3"
+					(reference "J30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 40.64 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42ca69a0-6e41-4972-baaf-08bfc85eddb5")
+		(property "Reference" "J31"
+			(at 42.926 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 41.275 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
+			(at 40.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 40.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "130a0c5f-b6f0-4856-83f4-61125bbaeda5")
+		)
+		(instances
+			(project "DMW-BLJ31-charger"
+				(path "/5b2025d1-6fc1-4f53-9ee2-e2e3aea65ef3"
+					(reference "J31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 186.69 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44853795-0dac-45ce-b00c-ebd80527f00b")
+		(property "Reference" "J1"
+			(at 187.325 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT+"
+			(at 187.325 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
+			(at 186.69 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 186.69 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -797,24 +1298,23 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 166.37 96.52 180)
+		(at 53.34 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a98299c-c4e8-4c6c-9e84-ea8862922bf4")
-		(property "Reference" "J13"
-			(at 165.735 91.44 0)
+		(uuid "50c03ce4-c048-497c-b4d0-3d52403bcb36")
+		(property "Reference" "J35"
+			(at 55.626 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BAT+"
-			(at 165.735 93.98 0)
+		(property "Value" "~"
+			(at 53.975 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -822,7 +1322,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
-			(at 166.37 96.52 0)
+			(at 53.34 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -831,7 +1331,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 96.52 0)
+			(at 53.34 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -840,7 +1340,199 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 166.37 96.52 0)
+			(at 53.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f3468cb-2e05-4a5c-9923-42b7e58fce86")
+		)
+		(instances
+			(project "DMW-BLJ31-charger"
+				(path "/5b2025d1-6fc1-4f53-9ee2-e2e3aea65ef3"
+					(reference "J35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 40.64 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50c37d73-edc7-4a32-9536-34ed0875b545")
+		(property "Reference" "J28"
+			(at 42.926 50.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 41.275 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
+			(at 40.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 40.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2ac9af4-8842-4f64-9f6e-93deb2811247")
+		)
+		(instances
+			(project "DMW-BLJ31-charger"
+				(path "/5b2025d1-6fc1-4f53-9ee2-e2e3aea65ef3"
+					(reference "J28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 53.34 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54210d1f-6074-4e90-ac96-7b7da78c9a9a")
+		(property "Reference" "J44"
+			(at 55.626 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 53.975 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
+			(at 53.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 53.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "138b6801-4ac8-4028-adac-c39df48fd7e7")
+		)
+		(instances
+			(project "DMW-BLJ31-charger"
+				(path "/5b2025d1-6fc1-4f53-9ee2-e2e3aea65ef3"
+					(reference "J44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 113.03 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a98299c-c4e8-4c6c-9e84-ea8862922bf4")
+		(property "Reference" "J13"
+			(at 109.982 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT+"
+			(at 109.474 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
+			(at 113.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 113.03 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -862,24 +1554,23 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 170.18 40.64 180)
+		(at 53.34 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6700fc02-af71-4100-a12d-9d153b9d4579")
-		(property "Reference" "J3"
-			(at 169.545 35.56 0)
+		(uuid "62108aea-097d-40b3-9837-48bcdafeff2c")
+		(property "Reference" "J42"
+			(at 55.626 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BAT+"
-			(at 169.545 38.1 0)
+		(property "Value" "~"
+			(at 53.975 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -887,7 +1578,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
-			(at 170.18 40.64 0)
+			(at 53.34 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -896,7 +1587,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 40.64 0)
+			(at 53.34 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -905,7 +1596,72 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 170.18 40.64 0)
+			(at 53.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ff7df46-03ec-4472-a2f0-e96ae1148f46")
+		)
+		(instances
+			(project "DMW-BLJ31-charger"
+				(path "/5b2025d1-6fc1-4f53-9ee2-e2e3aea65ef3"
+					(reference "J42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 186.69 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6700fc02-af71-4100-a12d-9d153b9d4579")
+		(property "Reference" "J3"
+			(at 187.325 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT+"
+			(at 187.325 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
+			(at 186.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 186.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -927,7 +1683,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 133.35 72.39 0)
+		(at 208.28 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -935,7 +1691,7 @@
 		(dnp no)
 		(uuid "76531f3a-6376-4e29-a770-2b4fadad4bf0")
 		(property "Reference" "J12"
-			(at 133.985 67.31 0)
+			(at 208.915 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -943,7 +1699,7 @@
 			)
 		)
 		(property "Value" "BAT-"
-			(at 133.985 69.85 0)
+			(at 208.915 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -951,7 +1707,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
-			(at 133.35 72.39 0)
+			(at 208.28 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -960,7 +1716,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 72.39 0)
+			(at 208.28 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -969,7 +1725,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 133.35 72.39 0)
+			(at 208.28 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -991,24 +1747,23 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 170.18 49.53 180)
+		(at 53.34 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86d67ffd-c8ed-4488-9a6f-c838d88464db")
-		(property "Reference" "J4"
-			(at 169.545 44.45 0)
+		(uuid "7d600bc5-c1d4-4ca2-81be-857ffacb2b4f")
+		(property "Reference" "J33"
+			(at 55.626 32.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BAT+"
-			(at 169.545 46.99 0)
+		(property "Value" "~"
+			(at 53.975 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1016,7 +1771,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
-			(at 170.18 49.53 0)
+			(at 53.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1025,7 +1780,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 49.53 0)
+			(at 53.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1034,7 +1789,136 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 170.18 49.53 0)
+			(at 53.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e09cafd-28ca-40da-ad1e-3161de691856")
+		)
+		(instances
+			(project "DMW-BLJ31-charger"
+				(path "/5b2025d1-6fc1-4f53-9ee2-e2e3aea65ef3"
+					(reference "J33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 53.34 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8348fb5e-b28d-4408-be1f-6a1fe244f255")
+		(property "Reference" "J43"
+			(at 55.626 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 53.975 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6e5bb84-4235-46b6-837b-678183a9a3a9")
+		)
+		(instances
+			(project "DMW-BLJ31-charger"
+				(path "/5b2025d1-6fc1-4f53-9ee2-e2e3aea65ef3"
+					(reference "J43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 186.69 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86d67ffd-c8ed-4488-9a6f-c838d88464db")
+		(property "Reference" "J4"
+			(at 187.325 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT+"
+			(at 187.325 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
+			(at 186.69 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 186.69 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1056,24 +1940,23 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 147.32 87.63 0)
+		(at 53.34 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9bb4ce80-8ee4-437f-941b-1a7d2fc3ac96")
-		(property "Reference" "J18"
-			(at 147.955 82.55 0)
+		(uuid "8f8ecd21-a8fc-4390-8822-6bb5e5d3895d")
+		(property "Reference" "J36"
+			(at 55.626 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BAT+"
-			(at 147.955 85.09 0)
+		(property "Value" "~"
+			(at 53.975 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1081,7 +1964,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
-			(at 147.32 87.63 0)
+			(at 53.34 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1090,7 +1973,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 87.63 0)
+			(at 53.34 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1099,7 +1982,135 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 147.32 87.63 0)
+			(at 53.34 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c1df8eb-ca45-44f4-977d-0f7252b63e2b")
+		)
+		(instances
+			(project "DMW-BLJ31-charger"
+				(path "/5b2025d1-6fc1-4f53-9ee2-e2e3aea65ef3"
+					(reference "J36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 53.34 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "944fa242-0a0c-4672-80ff-e782cf849c8a")
+		(property "Reference" "J41"
+			(at 55.626 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 53.975 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
+			(at 53.34 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 53.34 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df31da40-605c-4104-9a02-072081c5e33f")
+		)
+		(instances
+			(project "DMW-BLJ31-charger"
+				(path "/5b2025d1-6fc1-4f53-9ee2-e2e3aea65ef3"
+					(reference "J41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 114.3 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9bb4ce80-8ee4-437f-941b-1a7d2fc3ac96")
+		(property "Reference" "J18"
+			(at 110.744 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT+"
+			(at 110.236 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
+			(at 114.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 114.3 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1121,7 +2132,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 132.08 63.5 0)
+		(at 207.01 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1129,7 +2140,7 @@
 		(dnp no)
 		(uuid "9f7d3cbd-466b-4143-96d6-80d659b4cd4c")
 		(property "Reference" "J2"
-			(at 132.715 58.42 0)
+			(at 207.645 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1137,7 +2148,7 @@
 			)
 		)
 		(property "Value" "BAT-"
-			(at 132.715 60.96 0)
+			(at 207.645 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1145,7 +2156,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
-			(at 132.08 63.5 0)
+			(at 207.01 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1154,7 +2165,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 63.5 0)
+			(at 207.01 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1163,7 +2174,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 132.08 63.5 0)
+			(at 207.01 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1185,7 +2196,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 132.08 49.53 0)
+		(at 186.69 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1194,7 +2205,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0b63757-7f23-4a79-aae8-cc8686cd9b3b")
 		(property "Reference" "J11"
-			(at 132.715 44.45 0)
+			(at 187.325 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1202,7 +2213,7 @@
 			)
 		)
 		(property "Value" "BAT+"
-			(at 132.715 46.99 0)
+			(at 187.325 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1210,7 +2221,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
-			(at 132.08 49.53 0)
+			(at 186.69 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1219,7 +2230,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 49.53 0)
+			(at 186.69 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1228,7 +2239,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 132.08 49.53 0)
+			(at 186.69 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1250,23 +2261,23 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 146.05 115.57 0)
+		(at 53.34 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a8670477-01e7-4b2f-93e2-ebb0242b97f4")
-		(property "Reference" "J14"
-			(at 145.796 117.602 0)
+		(uuid "a543eb5b-3cab-4d6f-a615-8a7c35b2c30c")
+		(property "Reference" "J37"
+			(at 55.626 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BAT-"
-			(at 146.685 113.03 0)
+		(property "Value" "~"
+			(at 53.975 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1274,7 +2285,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
-			(at 146.05 115.57 0)
+			(at 53.34 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1283,7 +2294,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 115.57 0)
+			(at 53.34 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1292,7 +2303,71 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 146.05 115.57 0)
+			(at 53.34 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d4cf373-56d1-4bea-a17e-5fcd4b5df93e")
+		)
+		(instances
+			(project "DMW-BLJ31-charger"
+				(path "/5b2025d1-6fc1-4f53-9ee2-e2e3aea65ef3"
+					(reference "J37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 92.71 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8670477-01e7-4b2f-93e2-ebb0242b97f4")
+		(property "Reference" "J14"
+			(at 95.758 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT-"
+			(at 96.774 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
+			(at 92.71 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 92.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1314,7 +2389,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 74.93 54.61 0)
+		(at 25.4 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1322,7 +2397,7 @@
 		(dnp no)
 		(uuid "a93dad9a-5799-45e0-b5e0-9a0bd5f8e072")
 		(property "Reference" "J23"
-			(at 77.216 51.562 0)
+			(at 27.686 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1330,7 +2405,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 75.565 53.34 0)
+			(at 26.035 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1338,7 +2413,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
-			(at 74.93 54.61 0)
+			(at 25.4 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1347,7 +2422,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 54.61 0)
+			(at 25.4 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,7 +2431,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 74.93 54.61 0)
+			(at 25.4 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1378,7 +2453,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 182.88 63.5 0)
+		(at 162.56 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1387,7 +2462,7 @@
 		(fields_autoplaced yes)
 		(uuid "b05bd26e-bdb7-45d1-ba76-3a7bb12eb8cc")
 		(property "Reference" "J9"
-			(at 183.515 58.42 0)
+			(at 163.195 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1395,7 +2470,7 @@
 			)
 		)
 		(property "Value" "gnd"
-			(at 183.515 60.96 0)
+			(at 163.195 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1403,7 +2478,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
-			(at 182.88 63.5 0)
+			(at 162.56 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1412,7 +2487,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 63.5 0)
+			(at 162.56 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1421,7 +2496,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 182.88 63.5 0)
+			(at 162.56 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1443,7 +2518,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 170.18 72.39 180)
+		(at 207.01 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1452,7 +2527,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd986dff-5572-4810-b6a6-cf0180b8efb7")
 		(property "Reference" "J6"
-			(at 169.545 67.31 0)
+			(at 207.645 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1460,7 +2535,7 @@
 			)
 		)
 		(property "Value" "gnd"
-			(at 169.545 69.85 0)
+			(at 207.645 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1468,7 +2543,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
-			(at 170.18 72.39 0)
+			(at 207.01 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1477,7 +2552,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 72.39 0)
+			(at 207.01 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1486,7 +2561,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 170.18 72.39 0)
+			(at 207.01 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1508,7 +2583,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 165.1 125.73 180)
+		(at 92.71 49.53 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1516,7 +2591,7 @@
 		(dnp no)
 		(uuid "bf3c6f1b-b86c-4e1d-8d54-7be147954871")
 		(property "Reference" "J17"
-			(at 164.465 130.81 0)
+			(at 95.504 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1524,7 +2599,7 @@
 			)
 		)
 		(property "Value" "BAT-"
-			(at 164.465 128.27 0)
+			(at 96.774 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1532,7 +2607,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
-			(at 165.1 125.73 0)
+			(at 92.71 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1541,7 +2616,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 125.73 0)
+			(at 92.71 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1550,7 +2625,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 165.1 125.73 0)
+			(at 92.71 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1572,15 +2647,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 74.93 60.96 0)
+		(at 40.64 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c79fc5cf-50d7-4899-9a28-7367590ae4b3")
-		(property "Reference" "J24"
-			(at 77.216 57.912 0)
+		(uuid "c799082b-a0dd-4d14-8bd2-56ecc49dc21a")
+		(property "Reference" "J32"
+			(at 42.926 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1588,7 +2663,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 75.565 59.69 0)
+			(at 41.275 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1596,7 +2671,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
-			(at 74.93 60.96 0)
+			(at 40.64 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1605,7 +2680,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 60.96 0)
+			(at 40.64 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1614,7 +2689,71 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 74.93 60.96 0)
+			(at 40.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "185d1a43-15d4-4585-a5da-adf9c75d9b9b")
+		)
+		(instances
+			(project "DMW-BLJ31-charger"
+				(path "/5b2025d1-6fc1-4f53-9ee2-e2e3aea65ef3"
+					(reference "J32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 25.4 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c79fc5cf-50d7-4899-9a28-7367590ae4b3")
+		(property "Reference" "J24"
+			(at 27.686 50.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 26.035 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
+			(at 25.4 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 25.4 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1636,7 +2775,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 165.1 134.62 180)
+		(at 92.71 58.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1644,7 +2783,7 @@
 		(dnp no)
 		(uuid "cdd601b8-1173-48e6-a319-31bcb4bb2f55")
 		(property "Reference" "J19"
-			(at 164.465 139.7 0)
+			(at 95.758 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1652,7 +2791,7 @@
 			)
 		)
 		(property "Value" "BAT-"
-			(at 164.465 137.16 0)
+			(at 97.028 58.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1660,7 +2799,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
-			(at 165.1 134.62 0)
+			(at 92.71 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1669,7 +2808,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 134.62 0)
+			(at 92.71 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1678,7 +2817,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 165.1 134.62 0)
+			(at 92.71 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1700,7 +2839,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 182.88 72.39 0)
+		(at 162.56 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1709,7 +2848,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9ad686a-79a7-4b5b-abab-ed306431fa1e")
 		(property "Reference" "J10"
-			(at 183.515 67.31 0)
+			(at 163.195 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1717,7 +2856,7 @@
 			)
 		)
 		(property "Value" "gnd"
-			(at 183.515 69.85 0)
+			(at 163.195 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1725,7 +2864,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
-			(at 182.88 72.39 0)
+			(at 162.56 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1734,7 +2873,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 72.39 0)
+			(at 162.56 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,7 +2882,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 182.88 72.39 0)
+			(at 162.56 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,24 +2904,23 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 182.88 40.64 0)
+		(at 40.64 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7455729-502f-440d-ae19-ec8eeb0cc7a6")
-		(property "Reference" "J7"
-			(at 183.515 35.56 0)
+		(uuid "d9be5fec-c83c-400f-bb96-8aea1f36c0bc")
+		(property "Reference" "J25"
+			(at 42.926 32.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Vin"
-			(at 183.515 38.1 0)
+		(property "Value" "~"
+			(at 41.275 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1790,7 +2928,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
-			(at 182.88 40.64 0)
+			(at 40.64 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1799,7 +2937,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 40.64 0)
+			(at 40.64 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1808,7 +2946,328 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 182.88 40.64 0)
+			(at 40.64 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ba9b97a-17b5-4bfc-af0c-e613202b5343")
+		)
+		(instances
+			(project "DMW-BLJ31-charger"
+				(path "/5b2025d1-6fc1-4f53-9ee2-e2e3aea65ef3"
+					(reference "J25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 53.34 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da782d21-8a73-4e23-aa13-3abbc2a6e6bb")
+		(property "Reference" "J34"
+			(at 55.626 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 53.975 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
+			(at 53.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 53.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d67f9f7-3c14-49ca-baff-ba8c565717e6")
+		)
+		(instances
+			(project "DMW-BLJ31-charger"
+				(path "/5b2025d1-6fc1-4f53-9ee2-e2e3aea65ef3"
+					(reference "J34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 53.34 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2ca61dc-a7a4-40c0-833b-3b474609ce5e")
+		(property "Reference" "J45"
+			(at 55.626 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 53.975 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
+			(at 53.34 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 53.34 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98c65da2-12e5-4c9a-b966-7fa943dff8b3")
+		)
+		(instances
+			(project "DMW-BLJ31-charger"
+				(path "/5b2025d1-6fc1-4f53-9ee2-e2e3aea65ef3"
+					(reference "J45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 40.64 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea39d507-7d9c-42c1-9b2d-87a1b27ca353")
+		(property "Reference" "J29"
+			(at 42.926 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 41.275 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
+			(at 40.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 40.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f621ff9f-e289-44b5-9a32-c7f0f2867c69")
+		)
+		(instances
+			(project "DMW-BLJ31-charger"
+				(path "/5b2025d1-6fc1-4f53-9ee2-e2e3aea65ef3"
+					(reference "J29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 40.64 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1ee8c49-87fe-4eb1-afa8-5ac8fc8ac743")
+		(property "Reference" "J26"
+			(at 42.926 37.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 41.275 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
+			(at 40.64 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 40.64 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c5f298a-78fc-489d-8056-cf64c92df24a")
+		)
+		(instances
+			(project "DMW-BLJ31-charger"
+				(path "/5b2025d1-6fc1-4f53-9ee2-e2e3aea65ef3"
+					(reference "J26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 142.24 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7455729-502f-440d-ae19-ec8eeb0cc7a6")
+		(property "Reference" "J7"
+			(at 142.875 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Vin"
+			(at 142.875 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
+			(at 142.24 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 142.24 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1830,16 +3289,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 147.32 96.52 0)
+		(at 114.3 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f9259a84-9116-414d-b75f-2c2a4bd1cc1b")
 		(property "Reference" "J15"
-			(at 147.955 91.44 0)
+			(at 110.49 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1847,7 +3305,7 @@
 			)
 		)
 		(property "Value" "BAT+"
-			(at 147.955 93.98 0)
+			(at 110.236 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1855,7 +3313,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
-			(at 147.32 96.52 0)
+			(at 114.3 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1864,7 +3322,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 96.52 0)
+			(at 114.3 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1873,7 +3331,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 147.32 96.52 0)
+			(at 114.3 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1895,24 +3353,23 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 182.88 49.53 0)
+		(at 53.34 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd2711b7-c100-421a-bd16-96cbbd6020dd")
-		(property "Reference" "J8"
-			(at 183.515 44.45 0)
+		(uuid "f9e6d13b-f67e-497d-b6fa-4316b5fedf89")
+		(property "Reference" "J40"
+			(at 55.626 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Vin"
-			(at 183.515 46.99 0)
+		(property "Value" "~"
+			(at 53.975 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1920,7 +3377,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
-			(at 182.88 49.53 0)
+			(at 53.34 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1929,7 +3386,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 49.53 0)
+			(at 53.34 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1938,7 +3395,136 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 182.88 49.53 0)
+			(at 53.34 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22dfb3bb-0b66-4e6c-9c62-191b57032463")
+		)
+		(instances
+			(project "DMW-BLJ31-charger"
+				(path "/5b2025d1-6fc1-4f53-9ee2-e2e3aea65ef3"
+					(reference "J40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 40.64 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa32d320-0660-4281-bc54-a167b2902052")
+		(property "Reference" "J27"
+			(at 42.926 43.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 41.275 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
+			(at 40.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 40.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e2422b3-ffc0-4a81-bce6-de4a68755290")
+		)
+		(instances
+			(project "DMW-BLJ31-charger"
+				(path "/5b2025d1-6fc1-4f53-9ee2-e2e3aea65ef3"
+					(reference "J27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 142.24 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd2711b7-c100-421a-bd16-96cbbd6020dd")
+		(property "Reference" "J8"
+			(at 142.875 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Vin"
+			(at 142.875 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
+			(at 142.24 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 142.24 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1960,7 +3546,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 74.93 43.18 0)
+		(at 25.4 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1968,7 +3554,7 @@
 		(dnp no)
 		(uuid "ff40e4fd-8656-4e06-b98c-5afca83f9746")
 		(property "Reference" "J21"
-			(at 77.216 40.132 0)
+			(at 27.686 32.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1976,7 +3562,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 75.565 41.91 0)
+			(at 26.035 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1984,7 +3570,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
-			(at 74.93 43.18 0)
+			(at 25.4 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1993,7 +3579,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 43.18 0)
+			(at 25.4 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2002,7 +3588,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 74.93 43.18 0)
+			(at 25.4 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
