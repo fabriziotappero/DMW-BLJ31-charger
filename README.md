@@ -7,6 +7,14 @@ Traditional DMW-BLJ31 batteries are about 7.2V 25Wh that means that one charger 
 
 The charging time is approximately 2h and 4h, striking a reasonable balange between battery life and speed of charging.
 
+
+## PCB 
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/fabriziotappero/DMW-BLJ31-charger/refs/heads/main/PCBv1.1.jpg" width = "70%" alt="" align=center/>
+</p>
+
+
 ## DMW-BLJ31 Battery Dimensions
 
 <p align="center">
