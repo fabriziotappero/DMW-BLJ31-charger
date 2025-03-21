@@ -15,7 +15,7 @@ The charging time is approximately 2h and 4h, striking a reasonable balange betw
 </p>
 
 ## Pogo Pins
-The length of the pogo pins (pring loaded pins) must be <2.5mm when compressed. Here are the two pogo pins types we recommend.
+The length of the pogo pins (pring loaded pins) used here must be <2.5mm when compressed. Here are the pogo pins, available on [Amazon](https://www.amazon.es/dp/B0BXDG8MPN?th=1), that we recommend.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fabriziotappero/DMW-BLJ31-charger/refs/heads/main/pogo_pins.jpeg" width = "70%" alt="" align=center/>
