@@ -8,4 +8,15 @@ Plotted to 'C:\WORK\00_CODE\DMW-BLJ31-charger\GERBERS\DMW-BLJ31-charger-F_Mask.g
 Plotted to 'C:\WORK\00_CODE\DMW-BLJ31-charger\GERBERS\DMW-BLJ31-charger-B_Mask.gbr'.
 Plotted to 'C:\WORK\00_CODE\DMW-BLJ31-charger\GERBERS\DMW-BLJ31-charger-Edge_Cuts.gbr'.
 Created Gerber job file 'C:\WORK\00_CODE\DMW-BLJ31-charger\GERBERS\DMW-BLJ31-charger-job.gbrjob'.
+Plotted to 'C:\WORK\00_CODE\DMW-BLJ31-charger\GERBERS\DMW-BLJ31-charger-F_Cu.gbr'.
+Plotted to 'C:\WORK\00_CODE\DMW-BLJ31-charger\GERBERS\DMW-BLJ31-charger-B_Cu.gbr'.
+Plotted to 'C:\WORK\00_CODE\DMW-BLJ31-charger\GERBERS\DMW-BLJ31-charger-F_Paste.gbr'.
+Plotted to 'C:\WORK\00_CODE\DMW-BLJ31-charger\GERBERS\DMW-BLJ31-charger-B_Paste.gbr'.
+Plotted to 'C:\WORK\00_CODE\DMW-BLJ31-charger\GERBERS\DMW-BLJ31-charger-F_Silkscreen.gbr'.
+Plotted to 'C:\WORK\00_CODE\DMW-BLJ31-charger\GERBERS\DMW-BLJ31-charger-B_Silkscreen.gbr'.
+Plotted to 'C:\WORK\00_CODE\DMW-BLJ31-charger\GERBERS\DMW-BLJ31-charger-F_Mask.gbr'.
+Plotted to 'C:\WORK\00_CODE\DMW-BLJ31-charger\GERBERS\DMW-BLJ31-charger-B_Mask.gbr'.
+Plotted to 'C:\WORK\00_CODE\DMW-BLJ31-charger\GERBERS\DMW-BLJ31-charger-Edge_Cuts.gbr'.
+Created Gerber job file 'C:\WORK\00_CODE\DMW-BLJ31-charger\GERBERS\DMW-BLJ31-charger-job.gbrjob'.
+Info: Done.
 Info: Done.
